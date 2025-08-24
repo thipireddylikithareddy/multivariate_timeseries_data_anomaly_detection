@@ -25,12 +25,12 @@ Dependencies
 Usage
 -----
 From a terminal:
-    python anomaly_detection.py \
-        --input_csv "TFP Train Test.csv" \
-        --output_csv "TFP_Annotated.csv" \
-        --train_start "2004-01-01 00:00" \
-        --train_end   "2004-01-05 23:59" \
-        --analysis_start "2004-01-01 00:00" \
+    python mycode.py 
+        --input_csv "TFP Train Test.csv" 
+        --output_csv "TFP_Annotated.csv" 
+        --train_start "2004-01-01 00:00" 
+        --train_end   "2004-01-05 23:59" 
+        --analysis_start "2004-01-01 00:00" 
         --analysis_end   "2004-01-19 07:59"
 If your CSV has differently named timestamp columns, use --timestamp_col to specify it.
 The script tries to infer the timestamp column automatically if not provided.
